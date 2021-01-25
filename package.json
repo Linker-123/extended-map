@@ -1,0 +1,24 @@
+{
+  "name": "extended-map",
+  "version": "1.0.0",
+  "description": "More functions/methods for a normal map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linker-123/extended-map.git"
+  },
+  "keywords": [
+    "extended-map",
+    "map-addons",
+    "map"
+  ],
+  "author": "Linker-123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linker-123/extended-map/issues"
+  },
+  "homepage": "https://github.com/Linker-123/extended-map#readme"
+}
