@@ -54,7 +54,7 @@ module.exports = class ExtendedMap extends Map {
 
     toArray() {
         if (this._valArray.length !== this.size) this._valArray = [...this.values()];
-        return this._valArray();
+        return this._valArray;
     }
 
     toObject() {
