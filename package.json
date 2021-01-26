@@ -1,6 +1,6 @@
 {
   "name": "extended-js-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "More functions/methods for a normal map.",
   "main": "index.js",
   "scripts": {
