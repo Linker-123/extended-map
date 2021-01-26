@@ -6,7 +6,7 @@ Returns the first value of the map.
 ```js
 const ExtendedMap = require("extended-js-map");
 const myMap = new ExtendedMap();
-myMap.set('key', 'value');
+myMap.set("key", "value");
 console.log(myMap.first()); // "value"
 ```
 
@@ -15,8 +15,8 @@ Returns the last value of the map.
 ```js
 const ExtendedMap = require("extended-js-map");
 const myMap = new ExtendedMap();
-myMap.set('first key', 'first value');
-myMap.set('last key', 'last value')
+myMap.set("first key", "first value");
+myMap.set("last key", "last value")
 console.log(myMap.last()); // "last value"
 ```
 
@@ -56,7 +56,7 @@ console.log(myMap.random()); // 2
 ## <ExtendedMap>.equals(Map2)
 Compares the keys of both maps and returns a boolean.
 ```js
-const ExtendedMap = require('extended-js-map'); 
+const ExtendedMap = require("extended-js-map"); 
 const map1 = new ExtendedMap(); 
 const map2 = new ExtendedMap(); 
 map1.set(1, 1); 
@@ -67,7 +67,7 @@ map1.equals(map2); // true
 ## <ExtendedMap>.difference(Map2)
 Returns keys and values that exist in the map and don't exist in the second map. 
 ```js
-const ExtendedMap = require('extended-js-map'); 
+const ExtendedMap = require("extended-js-map"); 
 const map1 = new ExtendedMap(); 
 const map2 = new ExtendedMap(); 
 map1.set(123, 456); 
@@ -78,7 +78,7 @@ map1.difference(map2); // ExtendedMap [Map] { 123 => 456, _valArray: [] }
 ## <ExtendedMap>.duplicates(Map2) 
 Compares keys and values of both maps, and returns a map of the duplicated keys and values.
 ```js
-const ExtendedMap = require('extended-js-map'); 
+const ExtendedMap = require("extended-js-map"); 
 const map1 = new ExtendedMap(); 
 const map2 = new ExtendedMap(); 
 map1.set("map 1 key", "map 1 value"); 
@@ -133,7 +133,7 @@ languages.set("Java", { name: "Java", index: 1 });
 languages.set("C++", { name: "C++", index: 2 });
 languages.set("C", { name: "C", index: 3 });
 
-languages.map(x => `${x.name} - ${x.index + 1}`).join('\n');
+languages.map(x => `${x.name} - ${x.index + 1}`).join("\n");
 // Javascript - 1
 // Java - 2
 // C++ - 3
